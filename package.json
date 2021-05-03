@@ -1,0 +1,47 @@
+{
+  "name": "@map-colonies/static-assets",
+  "version": "0.1.0",
+  "bugs": {
+    "url": "https://github.com/MapColonies/static-assets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MapColonies/static-assets.git"
+  },
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "build": "yarn run copyassets:all",
+    "prebuild": "yarn del-dist",
+    "del-dist": "del-cli dist",
+    "prettier:fix": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "copyassets:all": "yarn run copyassets:mc-font",
+    "copyassets:mc-font": "yarn run copyassets:mc-font-files & yarn run copyassets:mc-font-style",
+    "copyassets:mc-font-files": "copyfiles -u 3 \"./src/fonts/mc-font/fonts/*\" \"./dist/fonts/mc-font\"",
+    "copyassets:mc-font-style": "copyfiles -u 3 \"./src/fonts/mc-font/style.css\" \"./dist/fonts/mc-font\""
+  },
+  "dependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1"
+  },
+  "devDependencies": {
+    "commitlint": "^9.1.0",
+    "copyfiles": "^2.4.0",
+    "cz-conventional-changelog": "^3.2.0",
+    "del-cli": "^3.0.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "standard-version": "^8.0.2"
+  }
+}

@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'MC-icons';
+  src:  url('fonts/MC-icons.eot?f9zdh4');
+  src:  url('fonts/MC-icons.eot?f9zdh4#iefix') format('embedded-opentype'),
+    url('fonts/MC-icons.ttf?f9zdh4') format('truetype'),
+    url('fonts/MC-icons.woff?f9zdh4') format('woff'),
+    url('fonts/MC-icons.svg?f9zdh4#MC-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MC-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Status-Approves:before {
+  content: "\e90c";
+}
+.icon-Status-Downloads:before {
+  content: "\e90f";
+}
+.icon-Status-Messages:before {
+  content: "\e910";
+}
+.icon-Status-Warnings:before {
+  content: "\e918";
+}
+.icon-Catalog:before {
+  content: "\e903";
+}
+.icon-Bests:before {
+  content: "\e904";
+}
+.icon-Search-History:before {
+  content: "\e905";
+}
+.icon-Coordinates:before {
+  content: "\e906";
+}
+.icon-Ellipce:before {
+  content: "\e907";
+}
+.icon-Rectangle:before {
+  content: "\e908";
+}
+.icon-Polygon:before {
+  content: "\e909";
+}
+.icon-Search:before {
+  content: "\e911";
+}
+.icon-Close:before {
+  content: "\e90d";
+}
+.icon-Arrows-Left:before {
+  content: "\e90e";
+}
+.icon-Arrows-Right:before {
+  content: "\e912";
+}
+.icon-Save:before {
+  content: "\e90a";
+}
+.icon-Refresh:before {
+  content: "\e90b";
+}
+.icon-Delete:before {
+  content: "\e913";
+}
+.icon-Filter:before {
+  content: "\e900";
+}
+.icon-Filter-On .path1:before {
+  content: "\e901";
+  color: rgb(175, 191, 218);
+}
+.icon-Filter-On .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(242, 239, 205);
+}
+.icon-Expand-Panel:before {
+  content: "\e914";
+}
+.icon-Collapce-Panel:before {
+  content: "\e915";
+}
+.icon-Table-Fill-Off:before {
+  content: "\e916";
+}
+.icon-Table---Fill-On:before {
+  content: "\e917";
+}
