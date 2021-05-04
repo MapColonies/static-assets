@@ -1,12 +1,16 @@
 {
   "name": "@map-colonies/static-assets",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "homepage": "https://github.com/MapColonies/static-assets/tree/master#readme",
   "bugs": {
     "url": "https://github.com/MapColonies/static-assets/issues"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/MapColonies/static-assets.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT",
   "husky": {
@@ -19,6 +23,9 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "yarn run copyassets:all",
     "prebuild": "yarn del-dist",
@@ -26,9 +33,9 @@
     "prettier:fix": "prettier --write .",
     "prettier:check": "prettier --check .",
     "copyassets:all": "yarn run copyassets:mc-font",
-    "copyassets:mc-font": "yarn run copyassets:mc-font-files & yarn run copyassets:mc-font-style",
-    "copyassets:mc-font-files": "copyfiles -u 3 \"./src/fonts/mc-font/fonts/*\" \"./dist/fonts/mc-font\"",
-    "copyassets:mc-font-style": "copyfiles -u 3 \"./src/fonts/mc-font/style.css\" \"./dist/fonts/mc-font\""
+    "copyassets:mc-font": "yarn run copyassets:mc-font-files & yarn run copyassets:mc-font-usage",
+    "copyassets:mc-font-files": "copyfiles -u 3 \"./src/fonts/mc-font/fonts/*\" \"./src/fonts/mc-font/style.css\" \"./dist/fonts/mc-font\"",
+    "copyassets:mc-font-usage": "copyfiles -u 3 \"./src/fonts/mc-font/demo*\" \"./src/fonts/mc-font/demo*/*\" \"./dist/fonts/mc-font\""
   },
   "dependencies": {
     "@commitlint/cli": "^9.1.1",
