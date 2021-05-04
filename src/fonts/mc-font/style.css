@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="mc-icon-"], [class*=" mc-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'MC-icons' !important;
   speak: never;
@@ -25,81 +25,81 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Status-Approves:before {
+.mc-icon-Status-Approves:before {
   content: "\e90c";
 }
-.icon-Status-Downloads:before {
+.mc-icon-Status-Downloads:before {
   content: "\e90f";
 }
-.icon-Status-Messages:before {
+.mc-icon-Status-Messages:before {
   content: "\e910";
 }
-.icon-Status-Warnings:before {
+.mc-icon-Status-Warnings:before {
   content: "\e918";
 }
-.icon-Catalog:before {
+.mc-icon-Catalog:before {
   content: "\e903";
 }
-.icon-Bests:before {
+.mc-icon-Bests:before {
   content: "\e904";
 }
-.icon-Search-History:before {
+.mc-icon-Search-History:before {
   content: "\e905";
 }
-.icon-Coordinates:before {
+.mc-icon-Coordinates:before {
   content: "\e906";
 }
-.icon-Ellipce:before {
+.mc-icon-Ellipce:before {
   content: "\e907";
 }
-.icon-Rectangle:before {
+.mc-icon-Rectangle:before {
   content: "\e908";
 }
-.icon-Polygon:before {
+.mc-icon-Polygon:before {
   content: "\e909";
 }
-.icon-Search:before {
+.mc-icon-Search:before {
   content: "\e911";
 }
-.icon-Close:before {
+.mc-icon-Close:before {
   content: "\e90d";
 }
-.icon-Arrows-Left:before {
+.mc-icon-Arrows-Left:before {
   content: "\e90e";
 }
-.icon-Arrows-Right:before {
+.mc-icon-Arrows-Right:before {
   content: "\e912";
 }
-.icon-Save:before {
+.mc-icon-Save:before {
   content: "\e90a";
 }
-.icon-Refresh:before {
+.mc-icon-Refresh:before {
   content: "\e90b";
 }
-.icon-Delete:before {
+.mc-icon-Delete:before {
   content: "\e913";
 }
-.icon-Filter:before {
+.mc-icon-Filter:before {
   content: "\e900";
 }
-.icon-Filter-On .path1:before {
+.mc-icon-Filter-On .path1:before {
   content: "\e901";
   color: rgb(175, 191, 218);
 }
-.icon-Filter-On .path2:before {
+.mc-icon-Filter-On .path2:before {
   content: "\e902";
   margin-left: -1em;
   color: rgb(242, 239, 205);
 }
-.icon-Expand-Panel:before {
+.mc-icon-Expand-Panel:before {
   content: "\e914";
 }
-.icon-Collapce-Panel:before {
+.mc-icon-Collapce-Panel:before {
   content: "\e915";
 }
-.icon-Table-Fill-Off:before {
+.mc-icon-Table-Fill-Off:before {
   content: "\e916";
 }
-.icon-Table---Fill-On:before {
+.mc-icon-Table---Fill-On:before {
   content: "\e917";
 }
