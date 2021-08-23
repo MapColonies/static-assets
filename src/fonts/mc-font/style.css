@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'MC-icons';
-  src:  url('fonts/MC-icons.eot?f9zdh4');
-  src:  url('fonts/MC-icons.eot?f9zdh4#iefix') format('embedded-opentype'),
-    url('fonts/MC-icons.ttf?f9zdh4') format('truetype'),
-    url('fonts/MC-icons.woff?f9zdh4') format('woff'),
-    url('fonts/MC-icons.svg?f9zdh4#MC-icons') format('svg');
+  src:  url('fonts/MC-icons.eot?mki3o5');
+  src:  url('fonts/MC-icons.eot?mki3o5#iefix') format('embedded-opentype'),
+    url('fonts/MC-icons.ttf?mki3o5') format('truetype'),
+    url('fonts/MC-icons.woff?mki3o5') format('woff'),
+    url('fonts/MC-icons.svg?mki3o5#MC-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mc-icon-Arrow-Left:before {
+  content: "\e919";
+}
+.mc-icon-Arrow-Right:before {
+  content: "\e91a";
+}
+.mc-icon-Move-Row:before {
+  content: "\e91b";
+}
 .mc-icon-Status-Approves:before {
   content: "\e90c";
 }
@@ -46,8 +55,47 @@
 .mc-icon-Search-History:before {
   content: "\e905";
 }
+.mc-icon-System-Missions:before {
+  content: "\e91c";
+}
+.mc-icon-Property-1Add:before {
+  content: "\e91d";
+}
+.mc-icon-Save:before {
+  content: "\e90a";
+}
+.mc-icon-Delete:before {
+  content: "\e913";
+}
+.mc-icon-Edit:before {
+  content: "\e91e";
+}
+.mc-icon-Refresh:before {
+  content: "\e90b";
+}
+.mc-icon-Copy:before {
+  content: "\e91f";
+}
+.mc-icon-Shown:before {
+  content: "\e920";
+}
+.mc-icon-Hidden:before {
+  content: "\e921";
+}
+.mc-icon-Ok:before {
+  content: "\e922";
+}
+.mc-icon-Warning:before {
+  content: "\e923";
+}
+.mc-icon-Search:before {
+  content: "\e911";
+}
 .mc-icon-Coordinates:before {
   content: "\e906";
+}
+.mc-icon-Set-Coordinates:before {
+  content: "\e924";
 }
 .mc-icon-Ellipce:before {
   content: "\e907";
@@ -55,11 +103,29 @@
 .mc-icon-Rectangle:before {
   content: "\e908";
 }
+.mc-icon-Map-Vector:before {
+  content: "\e925";
+}
+.mc-icon-Map-3D:before {
+  content: "\e926";
+}
+.mc-icon-Map-Terrain:before {
+  content: "\e927";
+}
+.mc-icon-Map-Orthophoto:before {
+  content: "\e928";
+}
+.mc-icon-Map-Raster:before {
+  content: "\e929";
+}
+.mc-icon-Map-Best-Raster:before {
+  content: "\e92a";
+}
+.mc-icon-Map-Best-Orthophoto:before {
+  content: "\e92b";
+}
 .mc-icon-Polygon:before {
   content: "\e909";
-}
-.mc-icon-Search:before {
-  content: "\e911";
 }
 .mc-icon-Close:before {
   content: "\e90d";
@@ -70,14 +136,11 @@
 .mc-icon-Arrows-Right:before {
   content: "\e912";
 }
-.mc-icon-Save:before {
-  content: "\e90a";
+.mc-icon-Back:before {
+  content: "\e92c";
 }
-.mc-icon-Refresh:before {
-  content: "\e90b";
-}
-.mc-icon-Delete:before {
-  content: "\e913";
+.mc-icon-Next:before {
+  content: "\e92d";
 }
 .mc-icon-Filter:before {
   content: "\e900";
