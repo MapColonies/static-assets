@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'MC-icons';
-  src:  url('fonts/MC-icons.eot?z5vdvn');
-  src:  url('fonts/MC-icons.eot?z5vdvn#iefix') format('embedded-opentype'),
-    url('fonts/MC-icons.ttf?z5vdvn') format('truetype'),
-    url('fonts/MC-icons.woff?z5vdvn') format('woff'),
-    url('fonts/MC-icons.svg?z5vdvn#MC-icons') format('svg');
+  src:  url('fonts/MC-icons.eot?dlsmy3');
+  src:  url('fonts/MC-icons.eot?dlsmy3#iefix') format('embedded-opentype'),
+    url('fonts/MC-icons.ttf?dlsmy3') format('truetype'),
+    url('fonts/MC-icons.woff?dlsmy3') format('woff'),
+    url('fonts/MC-icons.svg?dlsmy3#MC-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -92,9 +92,6 @@
 .mc-icon-Search-History:before {
   content: "\e905";
 }
-.mc-icon-System-Missions:before {
-  content: "\e91c";
-}
 .mc-icon-Add:before {
   content: "\e958";
 }
@@ -110,17 +107,35 @@
 .mc-icon-Edit:before {
   content: "\e91e";
 }
+.mc-icon-Edit1:before {
+  content: "\e93f";
+}
+.mc-icon-Update:before {
+  content: "\e940";
+}
 .mc-icon-Refresh:before {
   content: "\e90b";
 }
 .mc-icon-Copy:before {
   content: "\e91f";
 }
+.mc-icon-Copy1:before {
+  content: "\e996";
+}
+.mc-icon-Export-Left:before {
+  content: "\e997";
+}
 .mc-icon-Export:before {
-  content: "\e93f";
+  content: "\e998";
+}
+.mc-icon-Job-Management:before {
+  content: "\e91c";
+}
+.mc-icon-Info:before {
+  content: "\e999";
 }
 .mc-icon-System-Info:before {
-  content: "\e940";
+  content: "\e99a";
 }
 .mc-icon-Fly-to:before {
   content: "\e941";
@@ -134,7 +149,7 @@
 .mc-icon-Show:before {
   content: "\e920";
 }
-.mc-icon-Hidden:before {
+.mc-icon-Hide:before {
   content: "\e921";
 }
 .mc-icon-Publish:before {
@@ -161,10 +176,10 @@
 .mc-icon-Search:before {
   content: "\e911";
 }
-.mc-icon-Coordinates:before {
+.mc-icon-POI:before {
   content: "\e906";
 }
-.mc-icon-Set-Coordinates:before {
+.mc-icon-Coordinates:before {
   content: "\e924";
 }
 .mc-icon-Ellipse:before {
@@ -185,7 +200,7 @@
 .mc-icon-Height:before {
   content: "\e946";
 }
-.mc-icon-Height-Terrain:before {
+.mc-icon-Height-DTM:before {
   content: "\e947";
 }
 .mc-icon-Height-DSM:before {
@@ -209,7 +224,7 @@
 .mc-icon-Map-3D:before {
   content: "\e926";
 }
-.mc-icon-Map-Terrain:before {
+.mc-icon-Map-DTM:before {
   content: "\e927";
 }
 .mc-icon-Map-DSM:before {
@@ -236,7 +251,7 @@
 .mc-icon-Map-Best-RasterAid:before {
   content: "\e931";
 }
-.mc-icon-Map-Best-Mash:before {
+.mc-icon-Map-Best-Qmash:before {
   content: "\e932";
 }
 .mc-icon-Map-Slopes:before {
