@@ -1,17 +1,5 @@
 [
   {
-    "value": "1",
-    "translationCode": "lookupTable.classification.levelOne"
-  },
-  {
-    "value": "2",
-    "translationCode": "lookupTable.classification.levelTwo"
-  },
-  {
-    "value": "3",
-    "translationCode": "lookupTable.classification.levelThree"
-  },
-  {
     "value": "4",
     "translationCode": "lookupTable.classification.levelFour"
   },
@@ -22,9 +10,5 @@
   {
     "value": "6",
     "translationCode": "lookupTable.classification.levelSix"
-  },
-  {
-    "value": "7",
-    "translationCode": "lookupTable.classification.levelHermon"
   }
 ]
