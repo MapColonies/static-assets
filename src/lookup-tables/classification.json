@@ -22,5 +22,9 @@
   {
     "value": "6",
     "translationCode": "lookupTable.classification.levelSix"
+  },
+  {
+    "value": "7",
+    "translationCode": "lookupTable.classification.levelHermon"
   }
 ]
