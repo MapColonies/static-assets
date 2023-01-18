@@ -1,5 +1,9 @@
 [
   {
+    "value": "3",
+    "translationCode": "lookupTable.classification.levelThree"
+  },
+  {
     "value": "4",
     "translationCode": "lookupTable.classification.levelFour"
   },
