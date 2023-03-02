@@ -5,7 +5,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "label": "lookupTable.hotAreas.eilat" 
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -42,7 +44,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "label": "lookupTable.hotAreas.gaza"
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -77,7 +81,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                 "properties": {
+                    "label": "lookupTable.hotAreas.heifa"
+                 },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -106,7 +112,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "label": "lookupTable.hotAreas.iraq"
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -145,7 +153,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "label": "lookupTable.hotAreas.israel"
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -180,7 +190,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                 "properties": {
+                    "label": "lookupTable.hotAreas.lebanon"
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -220,7 +232,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "label": "lookupTable.hotAreas.sderot"
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -253,7 +267,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                 "properties": {
+                    "label": "lookupTable.hotAreas.syria"
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
@@ -281,7 +297,9 @@
         "properties": {
             "footprint": {
                 "type": "Feature",
-                "properties": {},
+                "properties": {
+                    "label": "lookupTable.hotAreas.telAviv"
+                },
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [
