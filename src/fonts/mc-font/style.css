@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'MC-icons';
-  src:  url('fonts/MC-icons.eot?szo7b6');
-  src:  url('fonts/MC-icons.eot?szo7b6#iefix') format('embedded-opentype'),
-    url('fonts/MC-icons.ttf?szo7b6') format('truetype'),
-    url('fonts/MC-icons.woff?szo7b6') format('woff'),
-    url('fonts/MC-icons.svg?szo7b6#MC-icons') format('svg');
+  src:  url('fonts/MC-icons.eot?lzbuky');
+  src:  url('fonts/MC-icons.eot?lzbuky#iefix') format('embedded-opentype'),
+    url('fonts/MC-icons.ttf?lzbuky') format('truetype'),
+    url('fonts/MC-icons.woff?lzbuky') format('woff'),
+    url('fonts/MC-icons.svg?lzbuky#MC-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -223,6 +223,24 @@
 }
 .mc-icon-Map-Heatmap:before {
   content: "\e94c";
+}
+.mc-icon-Predefined-AOIs:before {
+  content: "\e987";
+}
+.mc-icon-POI1:before {
+  content: "\e988";
+}
+.mc-icon-Multi-POI-2:before {
+  content: "\e989";
+}
+.mc-icon-Multi-POI-3:before {
+  content: "\e98a";
+}
+.mc-icon-Earth-full:before {
+  content: "\e958";
+}
+.mc-icon-Earth:before {
+  content: "\e98b";
 }
 .mc-icon-Map-Vector:before {
   content: "\e925";
